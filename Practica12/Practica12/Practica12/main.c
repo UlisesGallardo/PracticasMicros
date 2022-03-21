@@ -240,6 +240,8 @@ int main(void)
 				MostrarLecutra();
 				MostrarPosicion();
 			}else if(tecla == 14){ //reiniciar
+				LCD_wr_instruction(LCD_Cmd_Clear);
+				_delay_ms(10);
 				LCD_wr_instruction(0b10000000);
 				LCD_wr_string("SENSANDO... ");
 				posicion_actual = 0;
