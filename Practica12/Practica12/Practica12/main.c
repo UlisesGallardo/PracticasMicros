@@ -108,7 +108,7 @@ uint8_t hasta_tecla()
 	return 0;
 }
 
-uint16_t posicion_actual = 0;
+uint16_t posicion_actual = 0;				//0 a 511 EEPROM 
 uint16_t maxima_posicion = 0;
 
 void EEPROM_Write(uint16_t dir, uint8_t data)
@@ -130,6 +130,7 @@ uint8_t EEPROM_Read(uint16_t dir)
 	return EEDR;
 }
 
+uint8_t flag = 1;
 
 ISR(ADC_vect){
 	uint8_t res = ADCH;
@@ -137,6 +138,14 @@ ISR(ADC_vect){
 	if(posicion_actual<=511){
 		EEPROM_Write(posicion_actual,res);
 		posicion_actual++;
+	}else{
+		if(flag){
+			LCD_wr_instruction(LCD_Cmd_Clear);
+			flag = 0;
+			LCD_wr_instruction(0b10000000);
+			LCD_wr_string("EEPROM llena! ");
+			MostrarPosicion();
+		}
 	}
 }
 
@@ -212,7 +221,7 @@ int main(void)
 		
 		if(tecla == 14 && (TCCR0 & (1<<0))){
 			TCCR0 = 0b00001000;
-			posicion_actual-=2;
+			posicion_actual--;
 			maxima_posicion = posicion_actual;
 			LCD_wr_instruction(LCD_Cmd_Clear);
 			_delay_ms(10);
@@ -237,17 +246,7 @@ int main(void)
 				TCCR0 = 0b00001101;
 			}
 		}
-		
-		
-		
-		/*
-		LCD_wr_instruction(0b11000000);
-		LCD_wr_char(tecla + 48);
-		if(posicion_actual>=512){
-			LCD_wr_instruction(LCD_Cmd_Clear); 
-			LCD_wr_instruction(0b11000000);
-			LCD_wr_string("Memoria Llena! ");
-		}*/
+	
 	}
 }
 
