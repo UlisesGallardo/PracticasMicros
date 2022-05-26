@@ -1,0 +1,368 @@
+
+Practica19.elf:     file format elf32-avr
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .text         000001e8  00000000  00000000  00000054  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  1 .data         00000000  00800060  00800060  0000023c  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  2 .comment      00000030  00000000  00000000  0000023c  2**0
+                  CONTENTS, READONLY
+  3 .note.gnu.avr.deviceinfo 0000003c  00000000  00000000  0000026c  2**2
+                  CONTENTS, READONLY
+  4 .debug_aranges 00000048  00000000  00000000  000002a8  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  5 .debug_info   0000082d  00000000  00000000  000002f0  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  6 .debug_abbrev 00000691  00000000  00000000  00000b1d  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  7 .debug_line   000003ad  00000000  00000000  000011ae  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  8 .debug_frame  0000007c  00000000  00000000  0000155c  2**2
+                  CONTENTS, READONLY, DEBUGGING
+  9 .debug_str    00000385  00000000  00000000  000015d8  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 10 .debug_loc    00000275  00000000  00000000  0000195d  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 11 .debug_ranges 00000038  00000000  00000000  00001bd2  2**0
+                  CONTENTS, READONLY, DEBUGGING
+
+Disassembly of section .text:
+
+00000000 <__vectors>:
+   0:	0c 94 2a 00 	jmp	0x54	; 0x54 <__ctors_end>
+   4:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+   8:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+   c:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  10:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  14:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  18:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  1c:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  20:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  24:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  28:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  2c:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  30:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  34:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  38:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  3c:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  40:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  44:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  48:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  4c:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  50:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+
+00000054 <__ctors_end>:
+  54:	11 24       	eor	r1, r1
+  56:	1f be       	out	0x3f, r1	; 63
+  58:	cf e5       	ldi	r28, 0x5F	; 95
+  5a:	d4 e0       	ldi	r29, 0x04	; 4
+  5c:	de bf       	out	0x3e, r29	; 62
+  5e:	cd bf       	out	0x3d, r28	; 61
+  60:	0e 94 a2 00 	call	0x144	; 0x144 <main>
+  64:	0c 94 f2 00 	jmp	0x1e4	; 0x1e4 <_exit>
+
+00000068 <__bad_interrupt>:
+  68:	0c 94 00 00 	jmp	0	; 0x0 <__vectors>
+
+0000006c <cero_en_bit>:
+
+uint8_t convetir(uint8_t valor);
+
+uint8_t cero_en_bit(volatile uint8_t *LUGAR, uint8_t BIT)
+{
+	return (!(*LUGAR&(1<<BIT)));
+  6c:	fc 01       	movw	r30, r24
+  6e:	80 81       	ld	r24, Z
+  70:	90 e0       	ldi	r25, 0x00	; 0
+  72:	02 c0       	rjmp	.+4      	; 0x78 <cero_en_bit+0xc>
+  74:	95 95       	asr	r25
+  76:	87 95       	ror	r24
+  78:	6a 95       	dec	r22
+  7a:	e2 f7       	brpl	.-8      	; 0x74 <cero_en_bit+0x8>
+  7c:	f1 e0       	ldi	r31, 0x01	; 1
+  7e:	8f 27       	eor	r24, r31
+}
+  80:	81 70       	andi	r24, 0x01	; 1
+  82:	08 95       	ret
+
+00000084 <SPI_Master_Init>:
+
+void SPI_Master_Init()
+{
+	SPSR = 0b00000000;
+  84:	1e b8       	out	0x0e, r1	; 14
+	SPCR = (1<<SPE)|(1<<MSTR)|(1<<SPR0);	
+  86:	81 e5       	ldi	r24, 0x51	; 81
+  88:	8d b9       	out	0x0d, r24	; 13
+	DDRB = (1<<5)|(1<<7)|(1<<4); /*El ss irá como salida pues solo tenemos 1 dispositivo*/
+  8a:	80 eb       	ldi	r24, 0xB0	; 176
+  8c:	87 bb       	out	0x17, r24	; 23
+  8e:	08 95       	ret
+
+00000090 <Master_Transmit>:
+}
+
+uint8_t Master_Transmit(uint8_t dir, uint8_t data)
+{
+  90:	cf 93       	push	r28
+  92:	c6 2f       	mov	r28, r22
+	PORTB &= ~(1 << 4);
+  94:	98 b3       	in	r25, 0x18	; 24
+  96:	9f 7e       	andi	r25, 0xEF	; 239
+  98:	98 bb       	out	0x18, r25	; 24
+	SPDR = dir;
+  9a:	8f b9       	out	0x0f, r24	; 15
+	while(cero_en_bit(&SPSR,SPIF));
+  9c:	67 e0       	ldi	r22, 0x07	; 7
+  9e:	8e e2       	ldi	r24, 0x2E	; 46
+  a0:	90 e0       	ldi	r25, 0x00	; 0
+  a2:	0e 94 36 00 	call	0x6c	; 0x6c <cero_en_bit>
+  a6:	81 11       	cpse	r24, r1
+  a8:	f9 cf       	rjmp	.-14     	; 0x9c <Master_Transmit+0xc>
+	SPDR = data;
+  aa:	cf b9       	out	0x0f, r28	; 15
+	while(cero_en_bit(&SPSR,SPIF));
+  ac:	67 e0       	ldi	r22, 0x07	; 7
+  ae:	8e e2       	ldi	r24, 0x2E	; 46
+  b0:	90 e0       	ldi	r25, 0x00	; 0
+  b2:	0e 94 36 00 	call	0x6c	; 0x6c <cero_en_bit>
+  b6:	81 11       	cpse	r24, r1
+  b8:	f9 cf       	rjmp	.-14     	; 0xac <Master_Transmit+0x1c>
+	PORTB |= (1 << 4);
+  ba:	88 b3       	in	r24, 0x18	; 24
+  bc:	80 61       	ori	r24, 0x10	; 16
+  be:	88 bb       	out	0x18, r24	; 24
+
+	return SPDR;
+  c0:	8f b1       	in	r24, 0x0f	; 15
+}
+  c2:	cf 91       	pop	r28
+  c4:	08 95       	ret
+
+000000c6 <MAX_7221_init>:
+
+void MAX_7221_init(){
+	Master_Transmit(0x09, 0x00);//modo decode
+  c6:	60 e0       	ldi	r22, 0x00	; 0
+  c8:	89 e0       	ldi	r24, 0x09	; 9
+  ca:	0e 94 48 00 	call	0x90	; 0x90 <Master_Transmit>
+	Master_Transmit(0x0A, 0x0f); //MODO Intensidad luminoza , MAXIMA INTENSIDAD
+  ce:	6f e0       	ldi	r22, 0x0F	; 15
+  d0:	8a e0       	ldi	r24, 0x0A	; 10
+  d2:	0e 94 48 00 	call	0x90	; 0x90 <Master_Transmit>
+	Master_Transmit(0x0B, 0X03); //LIMITE SCAN
+  d6:	63 e0       	ldi	r22, 0x03	; 3
+  d8:	8b e0       	ldi	r24, 0x0B	; 11
+  da:	0e 94 48 00 	call	0x90	; 0x90 <Master_Transmit>
+	Master_Transmit(0x0C, 0X01); //SHUTDOWN	
+  de:	61 e0       	ldi	r22, 0x01	; 1
+  e0:	8c e0       	ldi	r24, 0x0C	; 12
+  e2:	0e 94 48 00 	call	0x90	; 0x90 <Master_Transmit>
+	Master_Transmit(0X01, 0x00); //TEST REGISTER FORMAT
+  e6:	60 e0       	ldi	r22, 0x00	; 0
+  e8:	81 e0       	ldi	r24, 0x01	; 1
+  ea:	0e 94 48 00 	call	0x90	; 0x90 <Master_Transmit>
+  ee:	08 95       	ret
+
+000000f0 <convetir>:
+    }
+	
+}
+
+uint8_t convetir(uint8_t valor){
+	if(valor == 0)return 0b00111111;
+  f0:	88 23       	and	r24, r24
+  f2:	a1 f0       	breq	.+40     	; 0x11c <convetir+0x2c>
+	else if(valor == 1)return 0b00000110;
+  f4:	81 30       	cpi	r24, 0x01	; 1
+  f6:	a1 f0       	breq	.+40     	; 0x120 <convetir+0x30>
+	else if(valor == 2)return 0b01011011;
+  f8:	82 30       	cpi	r24, 0x02	; 2
+  fa:	a1 f0       	breq	.+40     	; 0x124 <convetir+0x34>
+	else if(valor == 3)return 0b01001111;
+  fc:	83 30       	cpi	r24, 0x03	; 3
+  fe:	a1 f0       	breq	.+40     	; 0x128 <convetir+0x38>
+	else if(valor == 4)return 0b01100110;
+ 100:	84 30       	cpi	r24, 0x04	; 4
+ 102:	a1 f0       	breq	.+40     	; 0x12c <convetir+0x3c>
+	else if(valor == 5)return 0b01101101;
+ 104:	85 30       	cpi	r24, 0x05	; 5
+ 106:	a1 f0       	breq	.+40     	; 0x130 <convetir+0x40>
+	else if(valor == 6)return 0b01111101;
+ 108:	86 30       	cpi	r24, 0x06	; 6
+ 10a:	a1 f0       	breq	.+40     	; 0x134 <convetir+0x44>
+	else if(valor == 7)return 0b01000111;
+ 10c:	87 30       	cpi	r24, 0x07	; 7
+ 10e:	a1 f0       	breq	.+40     	; 0x138 <convetir+0x48>
+	else if(valor == 8)return 0b01111111;
+ 110:	88 30       	cpi	r24, 0x08	; 8
+ 112:	a1 f0       	breq	.+40     	; 0x13c <convetir+0x4c>
+	else if(valor == 9)return 0b01100111;
+ 114:	89 30       	cpi	r24, 0x09	; 9
+ 116:	a1 f4       	brne	.+40     	; 0x140 <convetir+0x50>
+ 118:	87 e6       	ldi	r24, 0x67	; 103
+ 11a:	08 95       	ret
+    }
+	
+}
+
+uint8_t convetir(uint8_t valor){
+	if(valor == 0)return 0b00111111;
+ 11c:	8f e3       	ldi	r24, 0x3F	; 63
+ 11e:	08 95       	ret
+	else if(valor == 1)return 0b00000110;
+ 120:	86 e0       	ldi	r24, 0x06	; 6
+ 122:	08 95       	ret
+	else if(valor == 2)return 0b01011011;
+ 124:	8b e5       	ldi	r24, 0x5B	; 91
+ 126:	08 95       	ret
+	else if(valor == 3)return 0b01001111;
+ 128:	8f e4       	ldi	r24, 0x4F	; 79
+ 12a:	08 95       	ret
+	else if(valor == 4)return 0b01100110;
+ 12c:	86 e6       	ldi	r24, 0x66	; 102
+ 12e:	08 95       	ret
+	else if(valor == 5)return 0b01101101;
+ 130:	8d e6       	ldi	r24, 0x6D	; 109
+ 132:	08 95       	ret
+	else if(valor == 6)return 0b01111101;
+ 134:	8d e7       	ldi	r24, 0x7D	; 125
+ 136:	08 95       	ret
+	else if(valor == 7)return 0b01000111;
+ 138:	87 e4       	ldi	r24, 0x47	; 71
+ 13a:	08 95       	ret
+	else if(valor == 8)return 0b01111111;
+ 13c:	8f e7       	ldi	r24, 0x7F	; 127
+ 13e:	08 95       	ret
+	else if(valor == 9)return 0b01100111;
+	return 0b00000110;
+ 140:	86 e0       	ldi	r24, 0x06	; 6
+}
+ 142:	08 95       	ret
+
+00000144 <main>:
+}
+
+
+int main(void)
+{	
+	SPI_Master_Init();
+ 144:	0e 94 42 00 	call	0x84	; 0x84 <SPI_Master_Init>
+	MAX_7221_init();
+ 148:	0e 94 63 00 	call	0xc6	; 0xc6 <MAX_7221_init>
+	
+	int con = 1;
+ 14c:	ee 24       	eor	r14, r14
+ 14e:	e3 94       	inc	r14
+ 150:	f1 2c       	mov	r15, r1
+	#else
+		//round up by default
+		__ticks_dc = (uint32_t)(ceil(fabs(__tmp)));
+	#endif
+
+	__builtin_avr_delay_cycles(__ticks_dc);
+ 152:	2f e3       	ldi	r18, 0x3F	; 63
+ 154:	8d e0       	ldi	r24, 0x0D	; 13
+ 156:	93 e0       	ldi	r25, 0x03	; 3
+ 158:	21 50       	subi	r18, 0x01	; 1
+ 15a:	80 40       	sbci	r24, 0x00	; 0
+ 15c:	90 40       	sbci	r25, 0x00	; 0
+ 15e:	e1 f7       	brne	.-8      	; 0x158 <main+0x14>
+ 160:	00 c0       	rjmp	.+0      	; 0x162 <main+0x1e>
+ 162:	00 00       	nop
+    while (1) 
+    {
+		_delay_ms(250);		
+		int aux = con;
+ 164:	c7 01       	movw	r24, r14
+		//if(aux == 15)continue;		
+		uint8_t pos = 4;
+ 166:	c4 e0       	ldi	r28, 0x04	; 4
+		while(1){
+			Master_Transmit(pos, convetir(aux%10));
+ 168:	6a e0       	ldi	r22, 0x0A	; 10
+ 16a:	70 e0       	ldi	r23, 0x00	; 0
+ 16c:	0e 94 ca 00 	call	0x194	; 0x194 <__divmodhi4>
+ 170:	16 2f       	mov	r17, r22
+ 172:	d7 2f       	mov	r29, r23
+ 174:	0e 94 78 00 	call	0xf0	; 0xf0 <convetir>
+ 178:	68 2f       	mov	r22, r24
+ 17a:	8c 2f       	mov	r24, r28
+ 17c:	0e 94 48 00 	call	0x90	; 0x90 <Master_Transmit>
+			aux/=10;
+ 180:	81 2f       	mov	r24, r17
+ 182:	9d 2f       	mov	r25, r29
+			if(aux == 0)break;
+ 184:	00 97       	sbiw	r24, 0x00	; 0
+ 186:	11 f0       	breq	.+4      	; 0x18c <main+0x48>
+			pos--;	
+ 188:	c1 50       	subi	r28, 0x01	; 1
+		}
+ 18a:	ee cf       	rjmp	.-36     	; 0x168 <main+0x24>
+		con++;
+ 18c:	2f ef       	ldi	r18, 0xFF	; 255
+ 18e:	e2 1a       	sub	r14, r18
+ 190:	f2 0a       	sbc	r15, r18
+    }
+ 192:	df cf       	rjmp	.-66     	; 0x152 <main+0xe>
+
+00000194 <__divmodhi4>:
+ 194:	97 fb       	bst	r25, 7
+ 196:	07 2e       	mov	r0, r23
+ 198:	16 f4       	brtc	.+4      	; 0x19e <__divmodhi4+0xa>
+ 19a:	00 94       	com	r0
+ 19c:	07 d0       	rcall	.+14     	; 0x1ac <__divmodhi4_neg1>
+ 19e:	77 fd       	sbrc	r23, 7
+ 1a0:	09 d0       	rcall	.+18     	; 0x1b4 <__divmodhi4_neg2>
+ 1a2:	0e 94 de 00 	call	0x1bc	; 0x1bc <__udivmodhi4>
+ 1a6:	07 fc       	sbrc	r0, 7
+ 1a8:	05 d0       	rcall	.+10     	; 0x1b4 <__divmodhi4_neg2>
+ 1aa:	3e f4       	brtc	.+14     	; 0x1ba <__divmodhi4_exit>
+
+000001ac <__divmodhi4_neg1>:
+ 1ac:	90 95       	com	r25
+ 1ae:	81 95       	neg	r24
+ 1b0:	9f 4f       	sbci	r25, 0xFF	; 255
+ 1b2:	08 95       	ret
+
+000001b4 <__divmodhi4_neg2>:
+ 1b4:	70 95       	com	r23
+ 1b6:	61 95       	neg	r22
+ 1b8:	7f 4f       	sbci	r23, 0xFF	; 255
+
+000001ba <__divmodhi4_exit>:
+ 1ba:	08 95       	ret
+
+000001bc <__udivmodhi4>:
+ 1bc:	aa 1b       	sub	r26, r26
+ 1be:	bb 1b       	sub	r27, r27
+ 1c0:	51 e1       	ldi	r21, 0x11	; 17
+ 1c2:	07 c0       	rjmp	.+14     	; 0x1d2 <__udivmodhi4_ep>
+
+000001c4 <__udivmodhi4_loop>:
+ 1c4:	aa 1f       	adc	r26, r26
+ 1c6:	bb 1f       	adc	r27, r27
+ 1c8:	a6 17       	cp	r26, r22
+ 1ca:	b7 07       	cpc	r27, r23
+ 1cc:	10 f0       	brcs	.+4      	; 0x1d2 <__udivmodhi4_ep>
+ 1ce:	a6 1b       	sub	r26, r22
+ 1d0:	b7 0b       	sbc	r27, r23
+
+000001d2 <__udivmodhi4_ep>:
+ 1d2:	88 1f       	adc	r24, r24
+ 1d4:	99 1f       	adc	r25, r25
+ 1d6:	5a 95       	dec	r21
+ 1d8:	a9 f7       	brne	.-22     	; 0x1c4 <__udivmodhi4_loop>
+ 1da:	80 95       	com	r24
+ 1dc:	90 95       	com	r25
+ 1de:	bc 01       	movw	r22, r24
+ 1e0:	cd 01       	movw	r24, r26
+ 1e2:	08 95       	ret
+
+000001e4 <_exit>:
+ 1e4:	f8 94       	cli
+
+000001e6 <__stop_program>:
+ 1e6:	ff cf       	rjmp	.-2      	; 0x1e6 <__stop_program>
