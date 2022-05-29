@@ -15,9 +15,12 @@
 #include "MPU6050_res_define.h"							/* Include MPU6050 register define file */
 #include "I2C_Master_H_file.h"							/* Include I2C Master header file */
 
-#define DDRLCD DDRD
-#define PORTLCD PORTD
-#define PINLCD PIND
+#define DDRLCD DDRA
+#define PORTLCD PORTA
+#define PINLCD PINA
+
+#define BAUD 9600
+#define MYUBRR F_CPU/16/BAUD-1
 
 #define RS 4
 #define RW 5
@@ -52,6 +55,10 @@ void LCD_wr_instruction(uint8_t instruccion);
 void LCD_wait_flag(void);
 void LCD_init(void);
 void LCD_wr_string(volatile uint8_t *s);
+
+void USART_Init(uint16_t ubrr);
+void USART_Transmit_char(uint8_t data);
+void UART_sendString(char *str);
 
 float Acc_x,Acc_y,Acc_z,Temperature,Gyro_x,Gyro_y,Gyro_z;
 
@@ -111,8 +118,10 @@ int main(void)
 	float Xa,Ya,Za,t;
 	float Xg=0,Yg=0,Zg=0;
 	LCD_init();
+	USART_Init(MYUBRR);
 	I2C_Init();											
 	MPU6050_Init();
+	
 
 	LCD_wr_instruction(0b10000000);
 	LCD_wr_string("SENSANDO... ");
@@ -130,15 +139,55 @@ int main(void)
 
 		t = (Temperature/340.00)+36.53;					
 		
+		
 		char value[3];
 		dtostrf(Xa, 1, 2, value);
 		LCD_wr_instruction(LCD_Cmd_Clear);
-		LCD_wr_instruction(0b10000000);
+		LCD_wr_instruction(0b11000000);
 		LCD_wr_string(value);
-		_delay_ms(250);
+		
+		if(Xa>=0.35){
+			UART_sendString("IZQ");
+			//LCD_wr_instruction(LCD_Cmd_Clear);
+			LCD_wr_instruction(0b10000000);
+			LCD_wr_string("Izq");
+		}else if(Xa<=-0.35){
+			UART_sendString("DER");
+			//LCD_wr_instruction(LCD_Cmd_Clear);
+			LCD_wr_instruction(0b10000000);
+			LCD_wr_string("Der");
+		}
+		//_delay_ms(250);
+		_delay_ms(1200);
 	}
 }
 
+/*----------------------------------------------------Comunicacion Serial--------------------------------------------------------------*/
+
+void USART_Init(uint16_t ubrr)
+{
+	DDRD |= 0b00000010;
+	UBRRH = (uint8_t)(ubrr>>8);
+	UBRRL = (uint8_t)ubrr;
+	UCSRB |= (1 << RXEN) | (1 << TXEN);         
+	UCSRC |= (1 << URSEL) | (1 << UCSZ0) | (1 << UCSZ1); 
+}
+
+void USART_Transmit_char(uint8_t data)
+{
+	while (!(UCSRA&(1<<UDRE))) {}
+	UDR = data;
+}
+
+void UART_sendString(char *str){
+	unsigned char s=0;
+	while (str[s]!=0){
+		USART_Transmit_char(str[s]);    
+		s++;
+	}
+}
+
+/*----------------------------------------------------LCD--------------------------------------------------------------*/
 void LCD_wr_string(volatile uint8_t *s){
 	uint8_t c;
 	while((c=*s++)){
