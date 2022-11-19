@@ -1,2 +1,2 @@
 # Microcontrolador Atmega16
-Practicas Micros II en C
+Practicas en C y Ensamblador 
