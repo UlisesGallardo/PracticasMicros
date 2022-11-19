@@ -1,0 +1,100 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.8</VERSION>
+ <DEVICE>"ATmega16A"</DEVICE>
+ <WORKING_DIR>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Brazo\Brazo\Rutina_Mover\Rutina_Mover\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Brazo\Brazo\Rutina_Mover\Rutina_Mover\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc\m16Adef.inc</FILE>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc\m16adef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Brazo\Brazo\Rutina_Mover\Rutina_Mover\Debug\Rutina_Mover.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>Rutina_Mover.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>Rutina_Mover.map</FILE>
+  <FILE>Rutina_Mover.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <RESET><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Brazo\Brazo\Rutina_Mover\Rutina_Mover\main.asm</FILE><LINE>46</LINE></RESET>
+  <EXT_INT0><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Brazo\Brazo\Rutina_Mover\Rutina_Mover\main.asm</FILE><LINE>596</LINE></EXT_INT0>
+  <EXT_INT1><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Brazo\Brazo\Rutina_Mover\Rutina_Mover\main.asm</FILE><LINE>598</LINE></EXT_INT1>
+  <TIM2_COMP><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Brazo\Brazo\Rutina_Mover\Rutina_Mover\main.asm</FILE><LINE>600</LINE></TIM2_COMP>
+  <TIM2_OVF><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Brazo\Brazo\Rutina_Mover\Rutina_Mover\main.asm</FILE><LINE>602</LINE></TIM2_OVF>
+  <TIM1_CAPT><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Brazo\Brazo\Rutina_Mover\Rutina_Mover\main.asm</FILE><LINE>604</LINE></TIM1_CAPT>
+  <TIM1_COMPA><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Brazo\Brazo\Rutina_Mover\Rutina_Mover\main.asm</FILE><LINE>606</LINE></TIM1_COMPA>
+  <TIM1_COMPB><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Brazo\Brazo\Rutina_Mover\Rutina_Mover\main.asm</FILE><LINE>608</LINE></TIM1_COMPB>
+  <TIM1_OVF><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Brazo\Brazo\Rutina_Mover\Rutina_Mover\main.asm</FILE><LINE>610</LINE></TIM1_OVF>
+  <TIM0_OVF><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Brazo\Brazo\Rutina_Mover\Rutina_Mover\main.asm</FILE><LINE>612</LINE></TIM0_OVF>
+  <SPI_STC><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Brazo\Brazo\Rutina_Mover\Rutina_Mover\main.asm</FILE><LINE>614</LINE></SPI_STC>
+  <USART_RXC><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Brazo\Brazo\Rutina_Mover\Rutina_Mover\main.asm</FILE><LINE>616</LINE></USART_RXC>
+  <USART_UDRE><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Brazo\Brazo\Rutina_Mover\Rutina_Mover\main.asm</FILE><LINE>618</LINE></USART_UDRE>
+  <USART_TXC><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Brazo\Brazo\Rutina_Mover\Rutina_Mover\main.asm</FILE><LINE>620</LINE></USART_TXC>
+  <ADC_COMP><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Brazo\Brazo\Rutina_Mover\Rutina_Mover\main.asm</FILE><LINE>622</LINE></ADC_COMP>
+  <EE_RDY><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Brazo\Brazo\Rutina_Mover\Rutina_Mover\main.asm</FILE><LINE>624</LINE></EE_RDY>
+  <ANA_COMP><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Brazo\Brazo\Rutina_Mover\Rutina_Mover\main.asm</FILE><LINE>626</LINE></ANA_COMP>
+  <TWSI><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Brazo\Brazo\Rutina_Mover\Rutina_Mover\main.asm</FILE><LINE>628</LINE></TWSI>
+  <EXT_INT2><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Brazo\Brazo\Rutina_Mover\Rutina_Mover\main.asm</FILE><LINE>630</LINE></EXT_INT2>
+  <TIM0_COMP><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Brazo\Brazo\Rutina_Mover\Rutina_Mover\main.asm</FILE><LINE>632</LINE></TIM0_COMP>
+  <SPM_RDY><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Brazo\Brazo\Rutina_Mover\Rutina_Mover\main.asm</FILE><LINE>634</LINE></SPM_RDY>
+  <TECLADO><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Brazo\Brazo\Rutina_Mover\Rutina_Mover\main.asm</FILE><LINE>100</LINE></TECLADO>
+  <UNO><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Brazo\Brazo\Rutina_Mover\Rutina_Mover\main.asm</FILE><LINE>161</LINE></UNO>
+  <CUATRO><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Brazo\Brazo\Rutina_Mover\Rutina_Mover\main.asm</FILE><LINE>205</LINE></CUATRO>
+  <SIETE><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Brazo\Brazo\Rutina_Mover\Rutina_Mover\main.asm</FILE><LINE>288</LINE></SIETE>
+  <ASTERISCO><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Brazo\Brazo\Rutina_Mover\Rutina_Mover\main.asm</FILE><LINE>332</LINE></ASTERISCO>
+  <DOS><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Brazo\Brazo\Rutina_Mover\Rutina_Mover\main.asm</FILE><LINE>171</LINE></DOS>
+  <CINCO><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Brazo\Brazo\Rutina_Mover\Rutina_Mover\main.asm</FILE><LINE>216</LINE></CINCO>
+  <OCHO><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Brazo\Brazo\Rutina_Mover\Rutina_Mover\main.asm</FILE><LINE>298</LINE></OCHO>
+  <CERO><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Brazo\Brazo\Rutina_Mover\Rutina_Mover\main.asm</FILE><LINE>342</LINE></CERO>
+  <TRES><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Brazo\Brazo\Rutina_Mover\Rutina_Mover\main.asm</FILE><LINE>182</LINE></TRES>
+  <SEIS><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Brazo\Brazo\Rutina_Mover\Rutina_Mover\main.asm</FILE><LINE>240</LINE></SEIS>
+  <NUEVE><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Brazo\Brazo\Rutina_Mover\Rutina_Mover\main.asm</FILE><LINE>309</LINE></NUEVE>
+  <GATO><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Brazo\Brazo\Rutina_Mover\Rutina_Mover\main.asm</FILE><LINE>352</LINE></GATO>
+  <A><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Brazo\Brazo\Rutina_Mover\Rutina_Mover\main.asm</FILE><LINE>192</LINE></A>
+  <B><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Brazo\Brazo\Rutina_Mover\Rutina_Mover\main.asm</FILE><LINE>275</LINE></B>
+  <C><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Brazo\Brazo\Rutina_Mover\Rutina_Mover\main.asm</FILE><LINE>319</LINE></C>
+  <D><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Brazo\Brazo\Rutina_Mover\Rutina_Mover\main.asm</FILE><LINE>362</LINE></D>
+  <RETARDO50M><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Brazo\Brazo\Rutina_Mover\Rutina_Mover\main.asm</FILE><LINE>549</LINE></RETARDO50M>
+  <TRABA_UNO><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Brazo\Brazo\Rutina_Mover\Rutina_Mover\main.asm</FILE><LINE>164</LINE></TRABA_UNO>
+  <TRABA_DOS><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Brazo\Brazo\Rutina_Mover\Rutina_Mover\main.asm</FILE><LINE>174</LINE></TRABA_DOS>
+  <GIRA_ARR><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Brazo\Brazo\Rutina_Mover\Rutina_Mover\main.asm</FILE><LINE>372</LINE></GIRA_ARR>
+  <TRABA_TRES><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Brazo\Brazo\Rutina_Mover\Rutina_Mover\main.asm</FILE><LINE>185</LINE></TRABA_TRES>
+  <TRABA_A><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Brazo\Brazo\Rutina_Mover\Rutina_Mover\main.asm</FILE><LINE>198</LINE></TRABA_A>
+  <TRABA_CUATRO><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Brazo\Brazo\Rutina_Mover\Rutina_Mover\main.asm</FILE><LINE>208</LINE></TRABA_CUATRO>
+  <GIRA_IZQ><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Brazo\Brazo\Rutina_Mover\Rutina_Mover\main.asm</FILE><LINE>459</LINE></GIRA_IZQ>
+  <TRABA_CINCO><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Brazo\Brazo\Rutina_Mover\Rutina_Mover\main.asm</FILE><LINE>219</LINE></TRABA_CINCO>
+  <GIRA_DER><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Brazo\Brazo\Rutina_Mover\Rutina_Mover\main.asm</FILE><LINE>426</LINE></GIRA_DER>
+  <GIRARAR_DERECHA><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Brazo\Brazo\Rutina_Mover\Rutina_Mover\main.asm</FILE><LINE>228</LINE></GIRARAR_DERECHA>
+  <TRABA_SEIS><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Brazo\Brazo\Rutina_Mover\Rutina_Mover\main.asm</FILE><LINE>242</LINE></TRABA_SEIS>
+  <TRABA_B><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Brazo\Brazo\Rutina_Mover\Rutina_Mover\main.asm</FILE><LINE>281</LINE></TRABA_B>
+  <TRABA_SIETE><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Brazo\Brazo\Rutina_Mover\Rutina_Mover\main.asm</FILE><LINE>291</LINE></TRABA_SIETE>
+  <TRABA_OCHO><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Brazo\Brazo\Rutina_Mover\Rutina_Mover\main.asm</FILE><LINE>301</LINE></TRABA_OCHO>
+  <GIRA_ABA><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Brazo\Brazo\Rutina_Mover\Rutina_Mover\main.asm</FILE><LINE>399</LINE></GIRA_ABA>
+  <TRABA_NUEVE><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Brazo\Brazo\Rutina_Mover\Rutina_Mover\main.asm</FILE><LINE>312</LINE></TRABA_NUEVE>
+  <TRABA_C><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Brazo\Brazo\Rutina_Mover\Rutina_Mover\main.asm</FILE><LINE>325</LINE></TRABA_C>
+  <TRABA_ASTERISCO><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Brazo\Brazo\Rutina_Mover\Rutina_Mover\main.asm</FILE><LINE>335</LINE></TRABA_ASTERISCO>
+  <TRABA_CERO><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Brazo\Brazo\Rutina_Mover\Rutina_Mover\main.asm</FILE><LINE>345</LINE></TRABA_CERO>
+  <TRABA_GATO><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Brazo\Brazo\Rutina_Mover\Rutina_Mover\main.asm</FILE><LINE>355</LINE></TRABA_GATO>
+  <TRABA_D><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Brazo\Brazo\Rutina_Mover\Rutina_Mover\main.asm</FILE><LINE>365</LINE></TRABA_D>
+  <RETARDO5M><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Brazo\Brazo\Rutina_Mover\Rutina_Mover\main.asm</FILE><LINE>504</LINE></RETARDO5M>
+  <RETARDO10M><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Brazo\Brazo\Rutina_Mover\Rutina_Mover\main.asm</FILE><LINE>486</LINE></RETARDO10M>
+  <WGLOOP00><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Brazo\Brazo\Rutina_Mover\Rutina_Mover\main.asm</FILE><LINE>493</LINE></WGLOOP00>
+  <WGLOOP10><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Brazo\Brazo\Rutina_Mover\Rutina_Mover\main.asm</FILE><LINE>494</LINE></WGLOOP10>
+  <WGLOOP02><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Brazo\Brazo\Rutina_Mover\Rutina_Mover\main.asm</FILE><LINE>511</LINE></WGLOOP02>
+  <WGLOOP12><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Brazo\Brazo\Rutina_Mover\Rutina_Mover\main.asm</FILE><LINE>512</LINE></WGLOOP12>
+  <RETARDO100M><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Brazo\Brazo\Rutina_Mover\Rutina_Mover\main.asm</FILE><LINE>523</LINE></RETARDO100M>
+  <AA><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Brazo\Brazo\Rutina_Mover\Rutina_Mover\main.asm</FILE><LINE>530</LINE></AA>
+  <BB><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Brazo\Brazo\Rutina_Mover\Rutina_Mover\main.asm</FILE><LINE>531</LINE></BB>
+  <CC><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Brazo\Brazo\Rutina_Mover\Rutina_Mover\main.asm</FILE><LINE>540</LINE></CC>
+  <WGLOOP01><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Brazo\Brazo\Rutina_Mover\Rutina_Mover\main.asm</FILE><LINE>556</LINE></WGLOOP01>
+  <WGLOOP11><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Brazo\Brazo\Rutina_Mover\Rutina_Mover\main.asm</FILE><LINE>557</LINE></WGLOOP11>
+  <WGLOOP21><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Brazo\Brazo\Rutina_Mover\Rutina_Mover\main.asm</FILE><LINE>564</LINE></WGLOOP21>
+ </LABELS>
+</ASSEMBLER_INFO>

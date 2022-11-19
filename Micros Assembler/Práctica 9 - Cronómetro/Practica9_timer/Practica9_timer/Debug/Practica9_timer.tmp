@@ -1,0 +1,61 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.8</VERSION>
+ <DEVICE>"ATmega16A"</DEVICE>
+ <WORKING_DIR>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 9\Practica9_timer\Practica9_timer\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 9\Practica9_timer\Practica9_timer\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc\m16Adef.inc</FILE>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc\m16adef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 9\Practica9_timer\Practica9_timer\Debug\Practica9_timer.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>Practica9_timer.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>Practica9_timer.map</FILE>
+  <FILE>Practica9_timer.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <RESET><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 9\Practica9_timer\Practica9_timer\main.asm</FILE><LINE>45</LINE></RESET>
+  <EXT_INT0><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 9\Practica9_timer\Practica9_timer\main.asm</FILE><LINE>188</LINE></EXT_INT0>
+  <EXT_INT1><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 9\Practica9_timer\Practica9_timer\main.asm</FILE><LINE>190</LINE></EXT_INT1>
+  <TIM2_COMP><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 9\Practica9_timer\Practica9_timer\main.asm</FILE><LINE>192</LINE></TIM2_COMP>
+  <TIM2_OVF><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 9\Practica9_timer\Practica9_timer\main.asm</FILE><LINE>194</LINE></TIM2_OVF>
+  <TIM1_CAPT><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 9\Practica9_timer\Practica9_timer\main.asm</FILE><LINE>196</LINE></TIM1_CAPT>
+  <TIM1_COMPA><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 9\Practica9_timer\Practica9_timer\main.asm</FILE><LINE>198</LINE></TIM1_COMPA>
+  <TIM1_COMPB><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 9\Practica9_timer\Practica9_timer\main.asm</FILE><LINE>200</LINE></TIM1_COMPB>
+  <TIM1_OVF><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 9\Practica9_timer\Practica9_timer\main.asm</FILE><LINE>202</LINE></TIM1_OVF>
+  <TIM0_OVF><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 9\Practica9_timer\Practica9_timer\main.asm</FILE><LINE>204</LINE></TIM0_OVF>
+  <SPI_STC><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 9\Practica9_timer\Practica9_timer\main.asm</FILE><LINE>206</LINE></SPI_STC>
+  <USART_RXC><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 9\Practica9_timer\Practica9_timer\main.asm</FILE><LINE>208</LINE></USART_RXC>
+  <USART_UDRE><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 9\Practica9_timer\Practica9_timer\main.asm</FILE><LINE>210</LINE></USART_UDRE>
+  <USART_TXC><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 9\Practica9_timer\Practica9_timer\main.asm</FILE><LINE>212</LINE></USART_TXC>
+  <ADC_COMP><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 9\Practica9_timer\Practica9_timer\main.asm</FILE><LINE>214</LINE></ADC_COMP>
+  <EE_RDY><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 9\Practica9_timer\Practica9_timer\main.asm</FILE><LINE>216</LINE></EE_RDY>
+  <ANA_COMP><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 9\Practica9_timer\Practica9_timer\main.asm</FILE><LINE>218</LINE></ANA_COMP>
+  <TWSI><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 9\Practica9_timer\Practica9_timer\main.asm</FILE><LINE>220</LINE></TWSI>
+  <EXT_INT2><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 9\Practica9_timer\Practica9_timer\main.asm</FILE><LINE>222</LINE></EXT_INT2>
+  <TIM0_COMP><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 9\Practica9_timer\Practica9_timer\main.asm</FILE><LINE>224</LINE></TIM0_COMP>
+  <SPM_RDY><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 9\Practica9_timer\Practica9_timer\main.asm</FILE><LINE>243</LINE></SPM_RDY>
+  <BOTONES><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 9\Practica9_timer\Practica9_timer\main.asm</FILE><LINE>89</LINE></BOTONES>
+  <INICIO><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 9\Practica9_timer\Practica9_timer\main.asm</FILE><LINE>96</LINE></INICIO>
+  <LIMPIAR><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 9\Practica9_timer\Practica9_timer\main.asm</FILE><LINE>117</LINE></LIMPIAR>
+  <RETARDO50ms><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 9\Practica9_timer\Practica9_timer\main.asm</FILE><LINE>161</LINE></RETARDO50ms>
+  <TRABA><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 9\Practica9_timer\Practica9_timer\main.asm</FILE><LINE>107</LINE></TRABA>
+  <TRABA2><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 9\Practica9_timer\Practica9_timer\main.asm</FILE><LINE>119</LINE></TRABA2>
+  <MINUTOS><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 9\Practica9_timer\Practica9_timer\main.asm</FILE><LINE>127</LINE></MINUTOS>
+  <DECENAS><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 9\Practica9_timer\Practica9_timer\main.asm</FILE><LINE>132</LINE></DECENAS>
+  <MOSTRAR><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 9\Practica9_timer\Practica9_timer\main.asm</FILE><LINE>137</LINE></MOSTRAR>
+  <DETENER><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 9\Practica9_timer\Practica9_timer\main.asm</FILE><LINE>156</LINE></DETENER>
+  <WGLOOP0><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 9\Practica9_timer\Practica9_timer\main.asm</FILE><LINE>168</LINE></WGLOOP0>
+  <WGLOOP1><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 9\Practica9_timer\Practica9_timer\main.asm</FILE><LINE>169</LINE></WGLOOP1>
+  <WGLOOP2><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 9\Practica9_timer\Practica9_timer\main.asm</FILE><LINE>176</LINE></WGLOOP2>
+ </LABELS>
+</ASSEMBLER_INFO>

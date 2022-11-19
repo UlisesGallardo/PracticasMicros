@@ -1,0 +1,100 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.8</VERSION>
+ <DEVICE>"ATmega16A"</DEVICE>
+ <WORKING_DIR>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Segundo Parcial\Proyectos\Practica 7\Practica7_Candado\Practica7_Candado\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Segundo Parcial\Proyectos\Practica 7\Practica7_Candado\Practica7_Candado\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc\m16Adef.inc</FILE>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc\m16adef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Segundo Parcial\Proyectos\Practica 7\Practica7_Candado\Practica7_Candado\Debug\Practica7_Candado.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>Practica7_Candado.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>Practica7_Candado.map</FILE>
+  <FILE>Practica7_Candado.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <RESET><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Segundo Parcial\Proyectos\Practica 7\Practica7_Candado\Practica7_Candado\main.asm</FILE><LINE>45</LINE></RESET>
+  <EXT_INT0><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Segundo Parcial\Proyectos\Practica 7\Practica7_Candado\Practica7_Candado\main.asm</FILE><LINE>459</LINE></EXT_INT0>
+  <EXT_INT1><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Segundo Parcial\Proyectos\Practica 7\Practica7_Candado\Practica7_Candado\main.asm</FILE><LINE>461</LINE></EXT_INT1>
+  <TIM2_COMP><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Segundo Parcial\Proyectos\Practica 7\Practica7_Candado\Practica7_Candado\main.asm</FILE><LINE>463</LINE></TIM2_COMP>
+  <TIM2_OVF><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Segundo Parcial\Proyectos\Practica 7\Practica7_Candado\Practica7_Candado\main.asm</FILE><LINE>465</LINE></TIM2_OVF>
+  <TIM1_CAPT><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Segundo Parcial\Proyectos\Practica 7\Practica7_Candado\Practica7_Candado\main.asm</FILE><LINE>467</LINE></TIM1_CAPT>
+  <TIM1_COMPA><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Segundo Parcial\Proyectos\Practica 7\Practica7_Candado\Practica7_Candado\main.asm</FILE><LINE>469</LINE></TIM1_COMPA>
+  <TIM1_COMPB><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Segundo Parcial\Proyectos\Practica 7\Practica7_Candado\Practica7_Candado\main.asm</FILE><LINE>471</LINE></TIM1_COMPB>
+  <TIM1_OVF><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Segundo Parcial\Proyectos\Practica 7\Practica7_Candado\Practica7_Candado\main.asm</FILE><LINE>473</LINE></TIM1_OVF>
+  <TIM0_OVF><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Segundo Parcial\Proyectos\Practica 7\Practica7_Candado\Practica7_Candado\main.asm</FILE><LINE>475</LINE></TIM0_OVF>
+  <SPI_STC><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Segundo Parcial\Proyectos\Practica 7\Practica7_Candado\Practica7_Candado\main.asm</FILE><LINE>477</LINE></SPI_STC>
+  <USART_RXC><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Segundo Parcial\Proyectos\Practica 7\Practica7_Candado\Practica7_Candado\main.asm</FILE><LINE>479</LINE></USART_RXC>
+  <USART_UDRE><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Segundo Parcial\Proyectos\Practica 7\Practica7_Candado\Practica7_Candado\main.asm</FILE><LINE>481</LINE></USART_UDRE>
+  <USART_TXC><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Segundo Parcial\Proyectos\Practica 7\Practica7_Candado\Practica7_Candado\main.asm</FILE><LINE>483</LINE></USART_TXC>
+  <ADC_COMP><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Segundo Parcial\Proyectos\Practica 7\Practica7_Candado\Practica7_Candado\main.asm</FILE><LINE>485</LINE></ADC_COMP>
+  <EE_RDY><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Segundo Parcial\Proyectos\Practica 7\Practica7_Candado\Practica7_Candado\main.asm</FILE><LINE>487</LINE></EE_RDY>
+  <ANA_COMP><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Segundo Parcial\Proyectos\Practica 7\Practica7_Candado\Practica7_Candado\main.asm</FILE><LINE>489</LINE></ANA_COMP>
+  <TWSI><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Segundo Parcial\Proyectos\Practica 7\Practica7_Candado\Practica7_Candado\main.asm</FILE><LINE>491</LINE></TWSI>
+  <EXT_INT2><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Segundo Parcial\Proyectos\Practica 7\Practica7_Candado\Practica7_Candado\main.asm</FILE><LINE>493</LINE></EXT_INT2>
+  <TIM0_COMP><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Segundo Parcial\Proyectos\Practica 7\Practica7_Candado\Practica7_Candado\main.asm</FILE><LINE>495</LINE></TIM0_COMP>
+  <SPM_RDY><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Segundo Parcial\Proyectos\Practica 7\Practica7_Candado\Practica7_Candado\main.asm</FILE><LINE>497</LINE></SPM_RDY>
+  <TECLADO><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Segundo Parcial\Proyectos\Practica 7\Practica7_Candado\Practica7_Candado\main.asm</FILE><LINE>76</LINE></TECLADO>
+  <D><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Segundo Parcial\Proyectos\Practica 7\Practica7_Candado\Practica7_Candado\main.asm</FILE><LINE>327</LINE></D>
+  <C><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Segundo Parcial\Proyectos\Practica 7\Practica7_Candado\Practica7_Candado\main.asm</FILE><LINE>282</LINE></C>
+  <B><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Segundo Parcial\Proyectos\Practica 7\Practica7_Candado\Practica7_Candado\main.asm</FILE><LINE>234</LINE></B>
+  <A><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Segundo Parcial\Proyectos\Practica 7\Practica7_Candado\Practica7_Candado\main.asm</FILE><LINE>187</LINE></A>
+  <GATO><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Segundo Parcial\Proyectos\Practica 7\Practica7_Candado\Practica7_Candado\main.asm</FILE><LINE>315</LINE></GATO>
+  <NUEVE><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Segundo Parcial\Proyectos\Practica 7\Practica7_Candado\Practica7_Candado\main.asm</FILE><LINE>270</LINE></NUEVE>
+  <SEIS><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Segundo Parcial\Proyectos\Practica 7\Practica7_Candado\Practica7_Candado\main.asm</FILE><LINE>222</LINE></SEIS>
+  <TRES><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Segundo Parcial\Proyectos\Practica 7\Practica7_Candado\Practica7_Candado\main.asm</FILE><LINE>174</LINE></TRES>
+  <CERO><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Segundo Parcial\Proyectos\Practica 7\Practica7_Candado\Practica7_Candado\main.asm</FILE><LINE>304</LINE></CERO>
+  <OCHO><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Segundo Parcial\Proyectos\Practica 7\Practica7_Candado\Practica7_Candado\main.asm</FILE><LINE>258</LINE></OCHO>
+  <CINCO><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Segundo Parcial\Proyectos\Practica 7\Practica7_Candado\Practica7_Candado\main.asm</FILE><LINE>210</LINE></CINCO>
+  <DOS><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Segundo Parcial\Proyectos\Practica 7\Practica7_Candado\Practica7_Candado\main.asm</FILE><LINE>161</LINE></DOS>
+  <ASTERISCO><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Segundo Parcial\Proyectos\Practica 7\Practica7_Candado\Practica7_Candado\main.asm</FILE><LINE>293</LINE></ASTERISCO>
+  <SIETE><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Segundo Parcial\Proyectos\Practica 7\Practica7_Candado\Practica7_Candado\main.asm</FILE><LINE>245</LINE></SIETE>
+  <CUATRO><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Segundo Parcial\Proyectos\Practica 7\Practica7_Candado\Practica7_Candado\main.asm</FILE><LINE>198</LINE></CUATRO>
+  <UNO><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Segundo Parcial\Proyectos\Practica 7\Practica7_Candado\Practica7_Candado\main.asm</FILE><LINE>148</LINE></UNO>
+  <RETARDO50m><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Segundo Parcial\Proyectos\Practica 7\Practica7_Candado\Practica7_Candado\main.asm</FILE><LINE>440</LINE></RETARDO50m>
+  <TRABA_UNO><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Segundo Parcial\Proyectos\Practica 7\Practica7_Candado\Practica7_Candado\main.asm</FILE><LINE>151</LINE></TRABA_UNO>
+  <CLAVE><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Segundo Parcial\Proyectos\Practica 7\Practica7_Candado\Practica7_Candado\main.asm</FILE><LINE>343</LINE></CLAVE>
+  <TRABA_DOS><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Segundo Parcial\Proyectos\Practica 7\Practica7_Candado\Practica7_Candado\main.asm</FILE><LINE>164</LINE></TRABA_DOS>
+  <TRABA_TRES><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Segundo Parcial\Proyectos\Practica 7\Practica7_Candado\Practica7_Candado\main.asm</FILE><LINE>177</LINE></TRABA_TRES>
+  <TRABA_A><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Segundo Parcial\Proyectos\Practica 7\Practica7_Candado\Practica7_Candado\main.asm</FILE><LINE>190</LINE></TRABA_A>
+  <TRABA_CUATRO><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Segundo Parcial\Proyectos\Practica 7\Practica7_Candado\Practica7_Candado\main.asm</FILE><LINE>201</LINE></TRABA_CUATRO>
+  <TRABA_CINCO><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Segundo Parcial\Proyectos\Practica 7\Practica7_Candado\Practica7_Candado\main.asm</FILE><LINE>213</LINE></TRABA_CINCO>
+  <TRABA_SEIS><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Segundo Parcial\Proyectos\Practica 7\Practica7_Candado\Practica7_Candado\main.asm</FILE><LINE>225</LINE></TRABA_SEIS>
+  <TRABA_B><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Segundo Parcial\Proyectos\Practica 7\Practica7_Candado\Practica7_Candado\main.asm</FILE><LINE>237</LINE></TRABA_B>
+  <TRABA_SIETE><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Segundo Parcial\Proyectos\Practica 7\Practica7_Candado\Practica7_Candado\main.asm</FILE><LINE>248</LINE></TRABA_SIETE>
+  <TRABA_OCHO><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Segundo Parcial\Proyectos\Practica 7\Practica7_Candado\Practica7_Candado\main.asm</FILE><LINE>261</LINE></TRABA_OCHO>
+  <TRABA_NUEVE><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Segundo Parcial\Proyectos\Practica 7\Practica7_Candado\Practica7_Candado\main.asm</FILE><LINE>273</LINE></TRABA_NUEVE>
+  <TRABA_C><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Segundo Parcial\Proyectos\Practica 7\Practica7_Candado\Practica7_Candado\main.asm</FILE><LINE>285</LINE></TRABA_C>
+  <TRABA_ASTERISCO><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Segundo Parcial\Proyectos\Practica 7\Practica7_Candado\Practica7_Candado\main.asm</FILE><LINE>296</LINE></TRABA_ASTERISCO>
+  <TRABA_CERO><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Segundo Parcial\Proyectos\Practica 7\Practica7_Candado\Practica7_Candado\main.asm</FILE><LINE>307</LINE></TRABA_CERO>
+  <TRABA_GATO><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Segundo Parcial\Proyectos\Practica 7\Practica7_Candado\Practica7_Candado\main.asm</FILE><LINE>318</LINE></TRABA_GATO>
+  <TRABA_D><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Segundo Parcial\Proyectos\Practica 7\Practica7_Candado\Practica7_Candado\main.asm</FILE><LINE>330</LINE></TRABA_D>
+  <REINICIAR><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Segundo Parcial\Proyectos\Practica 7\Practica7_Candado\Practica7_Candado\main.asm</FILE><LINE>430</LINE></REINICIAR>
+  <DESACTIVAR><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Segundo Parcial\Proyectos\Practica 7\Practica7_Candado\Practica7_Candado\main.asm</FILE><LINE>406</LINE></DESACTIVAR>
+  <Posicion1><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Segundo Parcial\Proyectos\Practica 7\Practica7_Candado\Practica7_Candado\main.asm</FILE><LINE>366</LINE></Posicion1>
+  <Posicion2><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Segundo Parcial\Proyectos\Practica 7\Practica7_Candado\Practica7_Candado\main.asm</FILE><LINE>372</LINE></Posicion2>
+  <Posicion3><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Segundo Parcial\Proyectos\Practica 7\Practica7_Candado\Practica7_Candado\main.asm</FILE><LINE>378</LINE></Posicion3>
+  <Posicion4><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Segundo Parcial\Proyectos\Practica 7\Practica7_Candado\Practica7_Candado\main.asm</FILE><LINE>384</LINE></Posicion4>
+  <SALIR><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Segundo Parcial\Proyectos\Practica 7\Practica7_Candado\Practica7_Candado\main.asm</FILE><LINE>361</LINE></SALIR>
+  <VERIFICAR><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Segundo Parcial\Proyectos\Practica 7\Practica7_Candado\Practica7_Candado\main.asm</FILE><LINE>390</LINE></VERIFICAR>
+  <ABRIR><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Segundo Parcial\Proyectos\Practica 7\Practica7_Candado\Practica7_Candado\main.asm</FILE><LINE>395</LINE></ABRIR>
+  <ALARMA><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Segundo Parcial\Proyectos\Practica 7\Practica7_Candado\Practica7_Candado\main.asm</FILE><LINE>400</LINE></ALARMA>
+  <SUMA1><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Segundo Parcial\Proyectos\Practica 7\Practica7_Candado\Practica7_Candado\main.asm</FILE><LINE>421</LINE></SUMA1>
+  <REGRESO1><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Segundo Parcial\Proyectos\Practica 7\Practica7_Candado\Practica7_Candado\main.asm</FILE><LINE>413</LINE></REGRESO1>
+  <SUMA2><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Segundo Parcial\Proyectos\Practica 7\Practica7_Candado\Practica7_Candado\main.asm</FILE><LINE>425</LINE></SUMA2>
+  <REGRESO2><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Segundo Parcial\Proyectos\Practica 7\Practica7_Candado\Practica7_Candado\main.asm</FILE><LINE>416</LINE></REGRESO2>
+  <AA><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Segundo Parcial\Proyectos\Practica 7\Practica7_Candado\Practica7_Candado\main.asm</FILE><LINE>442</LINE></AA>
+  <BB><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Segundo Parcial\Proyectos\Practica 7\Practica7_Candado\Practica7_Candado\main.asm</FILE><LINE>444</LINE></BB>
+  <CC><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Segundo Parcial\Proyectos\Practica 7\Practica7_Candado\Practica7_Candado\main.asm</FILE><LINE>450</LINE></CC>
+ </LABELS>
+</ASSEMBLER_INFO>

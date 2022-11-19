@@ -1,0 +1,93 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.8</VERSION>
+ <DEVICE>"ATmega16A"</DEVICE>
+ <WORKING_DIR>C:\Users\Joselyn Jozmara\Desktop\Recursos Examen\Examen\ExamenFinal\ExamenFinal\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\Joselyn Jozmara\Desktop\Recursos Examen\Examen\ExamenFinal\ExamenFinal\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc\m16Adef.inc</FILE>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc\m16adef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\Joselyn Jozmara\Desktop\Recursos Examen\Examen\ExamenFinal\ExamenFinal\Debug\ExamenFinal.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>ExamenFinal.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>ExamenFinal.map</FILE>
+  <FILE>ExamenFinal.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <RESET><FILE>C:\Users\Joselyn Jozmara\Desktop\Recursos Examen\Examen\ExamenFinal\ExamenFinal\main.asm</FILE><LINE>45</LINE></RESET>
+  <EXT_INT0><FILE>C:\Users\Joselyn Jozmara\Desktop\Recursos Examen\Examen\ExamenFinal\ExamenFinal\main.asm</FILE><LINE>478</LINE></EXT_INT0>
+  <EXT_INT1><FILE>C:\Users\Joselyn Jozmara\Desktop\Recursos Examen\Examen\ExamenFinal\ExamenFinal\main.asm</FILE><LINE>480</LINE></EXT_INT1>
+  <TIM2_COMP><FILE>C:\Users\Joselyn Jozmara\Desktop\Recursos Examen\Examen\ExamenFinal\ExamenFinal\main.asm</FILE><LINE>482</LINE></TIM2_COMP>
+  <TIM2_OVF><FILE>C:\Users\Joselyn Jozmara\Desktop\Recursos Examen\Examen\ExamenFinal\ExamenFinal\main.asm</FILE><LINE>484</LINE></TIM2_OVF>
+  <TIM1_CAPT><FILE>C:\Users\Joselyn Jozmara\Desktop\Recursos Examen\Examen\ExamenFinal\ExamenFinal\main.asm</FILE><LINE>486</LINE></TIM1_CAPT>
+  <TIM1_COMPA><FILE>C:\Users\Joselyn Jozmara\Desktop\Recursos Examen\Examen\ExamenFinal\ExamenFinal\main.asm</FILE><LINE>488</LINE></TIM1_COMPA>
+  <TIM1_COMPB><FILE>C:\Users\Joselyn Jozmara\Desktop\Recursos Examen\Examen\ExamenFinal\ExamenFinal\main.asm</FILE><LINE>490</LINE></TIM1_COMPB>
+  <TIM1_OVF><FILE>C:\Users\Joselyn Jozmara\Desktop\Recursos Examen\Examen\ExamenFinal\ExamenFinal\main.asm</FILE><LINE>492</LINE></TIM1_OVF>
+  <TIM0_OVF><FILE>C:\Users\Joselyn Jozmara\Desktop\Recursos Examen\Examen\ExamenFinal\ExamenFinal\main.asm</FILE><LINE>494</LINE></TIM0_OVF>
+  <SPI_STC><FILE>C:\Users\Joselyn Jozmara\Desktop\Recursos Examen\Examen\ExamenFinal\ExamenFinal\main.asm</FILE><LINE>496</LINE></SPI_STC>
+  <USART_RXC><FILE>C:\Users\Joselyn Jozmara\Desktop\Recursos Examen\Examen\ExamenFinal\ExamenFinal\main.asm</FILE><LINE>498</LINE></USART_RXC>
+  <USART_UDRE><FILE>C:\Users\Joselyn Jozmara\Desktop\Recursos Examen\Examen\ExamenFinal\ExamenFinal\main.asm</FILE><LINE>500</LINE></USART_UDRE>
+  <USART_TXC><FILE>C:\Users\Joselyn Jozmara\Desktop\Recursos Examen\Examen\ExamenFinal\ExamenFinal\main.asm</FILE><LINE>502</LINE></USART_TXC>
+  <ADC_COMP><FILE>C:\Users\Joselyn Jozmara\Desktop\Recursos Examen\Examen\ExamenFinal\ExamenFinal\main.asm</FILE><LINE>504</LINE></ADC_COMP>
+  <EE_RDY><FILE>C:\Users\Joselyn Jozmara\Desktop\Recursos Examen\Examen\ExamenFinal\ExamenFinal\main.asm</FILE><LINE>506</LINE></EE_RDY>
+  <ANA_COMP><FILE>C:\Users\Joselyn Jozmara\Desktop\Recursos Examen\Examen\ExamenFinal\ExamenFinal\main.asm</FILE><LINE>508</LINE></ANA_COMP>
+  <TWSI><FILE>C:\Users\Joselyn Jozmara\Desktop\Recursos Examen\Examen\ExamenFinal\ExamenFinal\main.asm</FILE><LINE>510</LINE></TWSI>
+  <EXT_INT2><FILE>C:\Users\Joselyn Jozmara\Desktop\Recursos Examen\Examen\ExamenFinal\ExamenFinal\main.asm</FILE><LINE>512</LINE></EXT_INT2>
+  <TIM0_COMP><FILE>C:\Users\Joselyn Jozmara\Desktop\Recursos Examen\Examen\ExamenFinal\ExamenFinal\main.asm</FILE><LINE>514</LINE></TIM0_COMP>
+  <SPM_RDY><FILE>C:\Users\Joselyn Jozmara\Desktop\Recursos Examen\Examen\ExamenFinal\ExamenFinal\main.asm</FILE><LINE>516</LINE></SPM_RDY>
+  <TECLADO><FILE>C:\Users\Joselyn Jozmara\Desktop\Recursos Examen\Examen\ExamenFinal\ExamenFinal\main.asm</FILE><LINE>106</LINE></TECLADO>
+  <TRES><FILE>C:\Users\Joselyn Jozmara\Desktop\Recursos Examen\Examen\ExamenFinal\ExamenFinal\main.asm</FILE><LINE>183</LINE></TRES>
+  <SEIS><FILE>C:\Users\Joselyn Jozmara\Desktop\Recursos Examen\Examen\ExamenFinal\ExamenFinal\main.asm</FILE><LINE>227</LINE></SEIS>
+  <NUEVE><FILE>C:\Users\Joselyn Jozmara\Desktop\Recursos Examen\Examen\ExamenFinal\ExamenFinal\main.asm</FILE><LINE>270</LINE></NUEVE>
+  <NUMERAL><FILE>C:\Users\Joselyn Jozmara\Desktop\Recursos Examen\Examen\ExamenFinal\ExamenFinal\main.asm</FILE><LINE>312</LINE></NUMERAL>
+  <DOS><FILE>C:\Users\Joselyn Jozmara\Desktop\Recursos Examen\Examen\ExamenFinal\ExamenFinal\main.asm</FILE><LINE>167</LINE></DOS>
+  <CINCO><FILE>C:\Users\Joselyn Jozmara\Desktop\Recursos Examen\Examen\ExamenFinal\ExamenFinal\main.asm</FILE><LINE>212</LINE></CINCO>
+  <OCHO><FILE>C:\Users\Joselyn Jozmara\Desktop\Recursos Examen\Examen\ExamenFinal\ExamenFinal\main.asm</FILE><LINE>256</LINE></OCHO>
+  <CERO><FILE>C:\Users\Joselyn Jozmara\Desktop\Recursos Examen\Examen\ExamenFinal\ExamenFinal\main.asm</FILE><LINE>297</LINE></CERO>
+  <UNO><FILE>C:\Users\Joselyn Jozmara\Desktop\Recursos Examen\Examen\ExamenFinal\ExamenFinal\main.asm</FILE><LINE>153</LINE></UNO>
+  <CUATRO><FILE>C:\Users\Joselyn Jozmara\Desktop\Recursos Examen\Examen\ExamenFinal\ExamenFinal\main.asm</FILE><LINE>197</LINE></CUATRO>
+  <SIETE><FILE>C:\Users\Joselyn Jozmara\Desktop\Recursos Examen\Examen\ExamenFinal\ExamenFinal\main.asm</FILE><LINE>241</LINE></SIETE>
+  <ASTERISCO><FILE>C:\Users\Joselyn Jozmara\Desktop\Recursos Examen\Examen\ExamenFinal\ExamenFinal\main.asm</FILE><LINE>284</LINE></ASTERISCO>
+  <GUARDAR><FILE>C:\Users\Joselyn Jozmara\Desktop\Recursos Examen\Examen\ExamenFinal\ExamenFinal\main.asm</FILE><LINE>341</LINE></GUARDAR>
+  <RETARDO50m><FILE>C:\Users\Joselyn Jozmara\Desktop\Recursos Examen\Examen\ExamenFinal\ExamenFinal\main.asm</FILE><LINE>447</LINE></RETARDO50m>
+  <TRABA_UNO><FILE>C:\Users\Joselyn Jozmara\Desktop\Recursos Examen\Examen\ExamenFinal\ExamenFinal\main.asm</FILE><LINE>160</LINE></TRABA_UNO>
+  <TRABA_DOS><FILE>C:\Users\Joselyn Jozmara\Desktop\Recursos Examen\Examen\ExamenFinal\ExamenFinal\main.asm</FILE><LINE>174</LINE></TRABA_DOS>
+  <TRABA_TRES><FILE>C:\Users\Joselyn Jozmara\Desktop\Recursos Examen\Examen\ExamenFinal\ExamenFinal\main.asm</FILE><LINE>190</LINE></TRABA_TRES>
+  <TRABA_CUATRO><FILE>C:\Users\Joselyn Jozmara\Desktop\Recursos Examen\Examen\ExamenFinal\ExamenFinal\main.asm</FILE><LINE>204</LINE></TRABA_CUATRO>
+  <TRABA_CINCO><FILE>C:\Users\Joselyn Jozmara\Desktop\Recursos Examen\Examen\ExamenFinal\ExamenFinal\main.asm</FILE><LINE>219</LINE></TRABA_CINCO>
+  <TRABA_SEIS><FILE>C:\Users\Joselyn Jozmara\Desktop\Recursos Examen\Examen\ExamenFinal\ExamenFinal\main.asm</FILE><LINE>234</LINE></TRABA_SEIS>
+  <TRABA_SIETE><FILE>C:\Users\Joselyn Jozmara\Desktop\Recursos Examen\Examen\ExamenFinal\ExamenFinal\main.asm</FILE><LINE>248</LINE></TRABA_SIETE>
+  <TRABA_OCHO><FILE>C:\Users\Joselyn Jozmara\Desktop\Recursos Examen\Examen\ExamenFinal\ExamenFinal\main.asm</FILE><LINE>263</LINE></TRABA_OCHO>
+  <TRABA_NUEVE><FILE>C:\Users\Joselyn Jozmara\Desktop\Recursos Examen\Examen\ExamenFinal\ExamenFinal\main.asm</FILE><LINE>277</LINE></TRABA_NUEVE>
+  <FRECUENCIA><FILE>C:\Users\Joselyn Jozmara\Desktop\Recursos Examen\Examen\ExamenFinal\ExamenFinal\main.asm</FILE><LINE>384</LINE></FRECUENCIA>
+  <TRABA_ASTERISCO><FILE>C:\Users\Joselyn Jozmara\Desktop\Recursos Examen\Examen\ExamenFinal\ExamenFinal\main.asm</FILE><LINE>290</LINE></TRABA_ASTERISCO>
+  <TRABA_CERO><FILE>C:\Users\Joselyn Jozmara\Desktop\Recursos Examen\Examen\ExamenFinal\ExamenFinal\main.asm</FILE><LINE>304</LINE></TRABA_CERO>
+  <TRABA_NUMERAL><FILE>C:\Users\Joselyn Jozmara\Desktop\Recursos Examen\Examen\ExamenFinal\ExamenFinal\main.asm</FILE><LINE>333</LINE></TRABA_NUMERAL>
+  <Posicion1><FILE>C:\Users\Joselyn Jozmara\Desktop\Recursos Examen\Examen\ExamenFinal\ExamenFinal\main.asm</FILE><LINE>351</LINE></Posicion1>
+  <Posicion2><FILE>C:\Users\Joselyn Jozmara\Desktop\Recursos Examen\Examen\ExamenFinal\ExamenFinal\main.asm</FILE><LINE>357</LINE></Posicion2>
+  <SALIR><FILE>C:\Users\Joselyn Jozmara\Desktop\Recursos Examen\Examen\ExamenFinal\ExamenFinal\main.asm</FILE><LINE>347</LINE></SALIR>
+  <MUESTRA><FILE>C:\Users\Joselyn Jozmara\Desktop\Recursos Examen\Examen\ExamenFinal\ExamenFinal\main.asm</FILE><LINE>367</LINE></MUESTRA>
+  <SUMA><FILE>C:\Users\Joselyn Jozmara\Desktop\Recursos Examen\Examen\ExamenFinal\ExamenFinal\main.asm</FILE><LINE>372</LINE></SUMA>
+  <AGREGA><FILE>C:\Users\Joselyn Jozmara\Desktop\Recursos Examen\Examen\ExamenFinal\ExamenFinal\main.asm</FILE><LINE>375</LINE></AGREGA>
+  <SEGUIR><FILE>C:\Users\Joselyn Jozmara\Desktop\Recursos Examen\Examen\ExamenFinal\ExamenFinal\main.asm</FILE><LINE>388</LINE></SEGUIR>
+  <Grado_0><FILE>C:\Users\Joselyn Jozmara\Desktop\Recursos Examen\Examen\ExamenFinal\ExamenFinal\main.asm</FILE><LINE>417</LINE></Grado_0>
+  <Grado_20><FILE>C:\Users\Joselyn Jozmara\Desktop\Recursos Examen\Examen\ExamenFinal\ExamenFinal\main.asm</FILE><LINE>421</LINE></Grado_20>
+  <Grado_40><FILE>C:\Users\Joselyn Jozmara\Desktop\Recursos Examen\Examen\ExamenFinal\ExamenFinal\main.asm</FILE><LINE>426</LINE></Grado_40>
+  <Grado_60><FILE>C:\Users\Joselyn Jozmara\Desktop\Recursos Examen\Examen\ExamenFinal\ExamenFinal\main.asm</FILE><LINE>431</LINE></Grado_60>
+  <Grado_80><FILE>C:\Users\Joselyn Jozmara\Desktop\Recursos Examen\Examen\ExamenFinal\ExamenFinal\main.asm</FILE><LINE>436</LINE></Grado_80>
+  <Grado_100><FILE>C:\Users\Joselyn Jozmara\Desktop\Recursos Examen\Examen\ExamenFinal\ExamenFinal\main.asm</FILE><LINE>441</LINE></Grado_100>
+  <REGRESAR><FILE>C:\Users\Joselyn Jozmara\Desktop\Recursos Examen\Examen\ExamenFinal\ExamenFinal\main.asm</FILE><LINE>413</LINE></REGRESAR>
+  <WGLOOP0><FILE>C:\Users\Joselyn Jozmara\Desktop\Recursos Examen\Examen\ExamenFinal\ExamenFinal\main.asm</FILE><LINE>454</LINE></WGLOOP0>
+  <WGLOOP1><FILE>C:\Users\Joselyn Jozmara\Desktop\Recursos Examen\Examen\ExamenFinal\ExamenFinal\main.asm</FILE><LINE>455</LINE></WGLOOP1>
+  <WGLOOP2><FILE>C:\Users\Joselyn Jozmara\Desktop\Recursos Examen\Examen\ExamenFinal\ExamenFinal\main.asm</FILE><LINE>462</LINE></WGLOOP2>
+ </LABELS>
+</ASSEMBLER_INFO>

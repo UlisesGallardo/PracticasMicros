@@ -1,0 +1,73 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.8</VERSION>
+ <DEVICE>"ATmega16A"</DEVICE>
+ <WORKING_DIR>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 10\Práctica10\Práctica10\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 10\Práctica10\Práctica10\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc\m16Adef.inc</FILE>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc\m16adef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 10\Práctica10\Práctica10\Debug\Práctica10.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>Práctica10.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>Práctica10.map</FILE>
+  <FILE>Práctica10.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <RESET><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 10\Práctica10\Práctica10\main.asm</FILE><LINE>45</LINE></RESET>
+  <EXT_INT0><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 10\Práctica10\Práctica10\main.asm</FILE><LINE>354</LINE></EXT_INT0>
+  <EXT_INT1><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 10\Práctica10\Práctica10\main.asm</FILE><LINE>356</LINE></EXT_INT1>
+  <TIM2_COMP><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 10\Práctica10\Práctica10\main.asm</FILE><LINE>358</LINE></TIM2_COMP>
+  <TIM2_OVF><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 10\Práctica10\Práctica10\main.asm</FILE><LINE>360</LINE></TIM2_OVF>
+  <TIM1_CAPT><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 10\Práctica10\Práctica10\main.asm</FILE><LINE>362</LINE></TIM1_CAPT>
+  <TIM1_COMPA><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 10\Práctica10\Práctica10\main.asm</FILE><LINE>364</LINE></TIM1_COMPA>
+  <TIM1_COMPB><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 10\Práctica10\Práctica10\main.asm</FILE><LINE>366</LINE></TIM1_COMPB>
+  <TIM1_OVF><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 10\Práctica10\Práctica10\main.asm</FILE><LINE>368</LINE></TIM1_OVF>
+  <TIM0_OVF><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 10\Práctica10\Práctica10\main.asm</FILE><LINE>370</LINE></TIM0_OVF>
+  <SPI_STC><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 10\Práctica10\Práctica10\main.asm</FILE><LINE>372</LINE></SPI_STC>
+  <USART_RXC><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 10\Práctica10\Práctica10\main.asm</FILE><LINE>374</LINE></USART_RXC>
+  <USART_UDRE><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 10\Práctica10\Práctica10\main.asm</FILE><LINE>376</LINE></USART_UDRE>
+  <USART_TXC><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 10\Práctica10\Práctica10\main.asm</FILE><LINE>378</LINE></USART_TXC>
+  <ADC_COMP><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 10\Práctica10\Práctica10\main.asm</FILE><LINE>380</LINE></ADC_COMP>
+  <EE_RDY><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 10\Práctica10\Práctica10\main.asm</FILE><LINE>382</LINE></EE_RDY>
+  <ANA_COMP><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 10\Práctica10\Práctica10\main.asm</FILE><LINE>384</LINE></ANA_COMP>
+  <TWSI><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 10\Práctica10\Práctica10\main.asm</FILE><LINE>386</LINE></TWSI>
+  <EXT_INT2><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 10\Práctica10\Práctica10\main.asm</FILE><LINE>388</LINE></EXT_INT2>
+  <TIM0_COMP><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 10\Práctica10\Práctica10\main.asm</FILE><LINE>390</LINE></TIM0_COMP>
+  <SPM_RDY><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 10\Práctica10\Práctica10\main.asm</FILE><LINE>392</LINE></SPM_RDY>
+  <BOTONES><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 10\Práctica10\Práctica10\main.asm</FILE><LINE>86</LINE></BOTONES>
+  <MARTINILLO><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 10\Práctica10\Práctica10\main.asm</FILE><LINE>92</LINE></MARTINILLO>
+  <RETARDO50ms><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 10\Práctica10\Práctica10\main.asm</FILE><LINE>201</LINE></RETARDO50ms>
+  <TRABAd0><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 10\Práctica10\Práctica10\main.asm</FILE><LINE>94</LINE></TRABAd0>
+  <NOTA_DO><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 10\Práctica10\Práctica10\main.asm</FILE><LINE>227</LINE></NOTA_DO>
+  <NEGRAS><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 10\Práctica10\Práctica10\main.asm</FILE><LINE>287</LINE></NEGRAS>
+  <NOTA_RE><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 10\Práctica10\Práctica10\main.asm</FILE><LINE>237</LINE></NOTA_RE>
+  <NOTA_MI><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 10\Práctica10\Práctica10\main.asm</FILE><LINE>247</LINE></NOTA_MI>
+  <NOTA_FA><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 10\Práctica10\Práctica10\main.asm</FILE><LINE>257</LINE></NOTA_FA>
+  <NOTA_SOL><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 10\Práctica10\Práctica10\main.asm</FILE><LINE>267</LINE></NOTA_SOL>
+  <BLANCAS><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 10\Práctica10\Práctica10\main.asm</FILE><LINE>314</LINE></BLANCAS>
+  <CORCHEA><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 10\Práctica10\Práctica10\main.asm</FILE><LINE>319</LINE></CORCHEA>
+  <NOTA_LA><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 10\Práctica10\Práctica10\main.asm</FILE><LINE>277</LINE></NOTA_LA>
+  <WGLOOP0><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 10\Práctica10\Práctica10\main.asm</FILE><LINE>208</LINE></WGLOOP0>
+  <WGLOOP1><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 10\Práctica10\Práctica10\main.asm</FILE><LINE>209</LINE></WGLOOP1>
+  <WGLOOP2><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 10\Práctica10\Práctica10\main.asm</FILE><LINE>216</LINE></WGLOOP2>
+  <WGLOOP0_NEGRA><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 10\Práctica10\Práctica10\main.asm</FILE><LINE>294</LINE></WGLOOP0_NEGRA>
+  <WGLOOP1_NEGRA><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 10\Práctica10\Práctica10\main.asm</FILE><LINE>295</LINE></WGLOOP1_NEGRA>
+  <WGLOOP2_NEGRA><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 10\Práctica10\Práctica10\main.asm</FILE><LINE>296</LINE></WGLOOP2_NEGRA>
+  <WGLOOP3_NEGRA><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 10\Práctica10\Práctica10\main.asm</FILE><LINE>305</LINE></WGLOOP3_NEGRA>
+  <WGLOOP0_CORCHEA><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 10\Práctica10\Práctica10\main.asm</FILE><LINE>326</LINE></WGLOOP0_CORCHEA>
+  <WGLOOP1_CORCHEA><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 10\Práctica10\Práctica10\main.asm</FILE><LINE>327</LINE></WGLOOP1_CORCHEA>
+  <WGLOOP2_CORCHEA><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 10\Práctica10\Práctica10\main.asm</FILE><LINE>328</LINE></WGLOOP2_CORCHEA>
+  <NEGRA_PUNTILLO><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 10\Práctica10\Práctica10\main.asm</FILE><LINE>341</LINE></NEGRA_PUNTILLO>
+  <BLANCA_PUNTILLO><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 10\Práctica10\Práctica10\main.asm</FILE><LINE>346</LINE></BLANCA_PUNTILLO>
+ </LABELS>
+</ASSEMBLER_INFO>

@@ -1,0 +1,64 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.8</VERSION>
+ <DEVICE>"ATmega16A"</DEVICE>
+ <WORKING_DIR>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 8\Practica8_Dados\Practica8_Dados\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 8\Practica8_Dados\Practica8_Dados\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc\m16Adef.inc</FILE>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc\m16adef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 8\Practica8_Dados\Practica8_Dados\Debug\Practica8_Dados.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>Practica8_Dados.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>Practica8_Dados.map</FILE>
+  <FILE>Practica8_Dados.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <RESET><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 8\Practica8_Dados\Practica8_Dados\main.asm</FILE><LINE>45</LINE></RESET>
+  <EXT_INT0><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 8\Practica8_Dados\Practica8_Dados\main.asm</FILE><LINE>166</LINE></EXT_INT0>
+  <EXT_INT1><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 8\Practica8_Dados\Practica8_Dados\main.asm</FILE><LINE>182</LINE></EXT_INT1>
+  <TIM2_COMP><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 8\Practica8_Dados\Practica8_Dados\main.asm</FILE><LINE>184</LINE></TIM2_COMP>
+  <TIM2_OVF><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 8\Practica8_Dados\Practica8_Dados\main.asm</FILE><LINE>186</LINE></TIM2_OVF>
+  <TIM1_CAPT><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 8\Practica8_Dados\Practica8_Dados\main.asm</FILE><LINE>188</LINE></TIM1_CAPT>
+  <TIM1_COMPA><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 8\Practica8_Dados\Practica8_Dados\main.asm</FILE><LINE>190</LINE></TIM1_COMPA>
+  <TIM1_COMPB><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 8\Practica8_Dados\Practica8_Dados\main.asm</FILE><LINE>192</LINE></TIM1_COMPB>
+  <TIM1_OVF><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 8\Practica8_Dados\Practica8_Dados\main.asm</FILE><LINE>194</LINE></TIM1_OVF>
+  <TIM0_OVF><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 8\Practica8_Dados\Practica8_Dados\main.asm</FILE><LINE>196</LINE></TIM0_OVF>
+  <SPI_STC><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 8\Practica8_Dados\Practica8_Dados\main.asm</FILE><LINE>198</LINE></SPI_STC>
+  <USART_RXC><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 8\Practica8_Dados\Practica8_Dados\main.asm</FILE><LINE>200</LINE></USART_RXC>
+  <USART_UDRE><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 8\Practica8_Dados\Practica8_Dados\main.asm</FILE><LINE>202</LINE></USART_UDRE>
+  <USART_TXC><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 8\Practica8_Dados\Practica8_Dados\main.asm</FILE><LINE>204</LINE></USART_TXC>
+  <ADC_COMP><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 8\Practica8_Dados\Practica8_Dados\main.asm</FILE><LINE>206</LINE></ADC_COMP>
+  <EE_RDY><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 8\Practica8_Dados\Practica8_Dados\main.asm</FILE><LINE>208</LINE></EE_RDY>
+  <ANA_COMP><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 8\Practica8_Dados\Practica8_Dados\main.asm</FILE><LINE>210</LINE></ANA_COMP>
+  <TWSI><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 8\Practica8_Dados\Practica8_Dados\main.asm</FILE><LINE>212</LINE></TWSI>
+  <EXT_INT2><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 8\Practica8_Dados\Practica8_Dados\main.asm</FILE><LINE>214</LINE></EXT_INT2>
+  <TIM0_COMP><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 8\Practica8_Dados\Practica8_Dados\main.asm</FILE><LINE>216</LINE></TIM0_COMP>
+  <SPM_RDY><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 8\Practica8_Dados\Practica8_Dados\main.asm</FILE><LINE>218</LINE></SPM_RDY>
+  <REINICIO><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 8\Practica8_Dados\Practica8_Dados\main.asm</FILE><LINE>82</LINE></REINICIO>
+  <INICIO><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 8\Practica8_Dados\Practica8_Dados\main.asm</FILE><LINE>90</LINE></INICIO>
+  <SIGUIENTE><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 8\Practica8_Dados\Practica8_Dados\main.asm</FILE><LINE>86</LINE></SIGUIENTE>
+  <RETARDO50m><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 8\Practica8_Dados\Practica8_Dados\main.asm</FILE><LINE>94</LINE></RETARDO50m>
+  <AA><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 8\Practica8_Dados\Practica8_Dados\main.asm</FILE><LINE>96</LINE></AA>
+  <BB><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 8\Practica8_Dados\Practica8_Dados\main.asm</FILE><LINE>98</LINE></BB>
+  <CC><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 8\Practica8_Dados\Practica8_Dados\main.asm</FILE><LINE>104</LINE></CC>
+  <UNO><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 8\Practica8_Dados\Practica8_Dados\main.asm</FILE><LINE>110</LINE></UNO>
+  <DOS><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 8\Practica8_Dados\Practica8_Dados\main.asm</FILE><LINE>115</LINE></DOS>
+  <TRES><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 8\Practica8_Dados\Practica8_Dados\main.asm</FILE><LINE>120</LINE></TRES>
+  <CUATRO><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 8\Practica8_Dados\Practica8_Dados\main.asm</FILE><LINE>125</LINE></CUATRO>
+  <CINCO><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 8\Practica8_Dados\Practica8_Dados\main.asm</FILE><LINE>130</LINE></CINCO>
+  <SEIS><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 8\Practica8_Dados\Practica8_Dados\main.asm</FILE><LINE>135</LINE></SEIS>
+  <SIETE><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 8\Practica8_Dados\Practica8_Dados\main.asm</FILE><LINE>140</LINE></SIETE>
+  <MUESTRA><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 8\Practica8_Dados\Practica8_Dados\main.asm</FILE><LINE>145</LINE></MUESTRA>
+  <TRABA1><FILE>C:\Users\Vladimir\Desktop\Materias 2021 Otoño\Microcontroladores I\Tercer Parcial\Proyectos\Práctica 8\Practica8_Dados\Practica8_Dados\main.asm</FILE><LINE>170</LINE></TRABA1>
+ </LABELS>
+</ASSEMBLER_INFO>
